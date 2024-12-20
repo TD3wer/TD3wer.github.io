@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Espaçamento interno */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: #007bff; /* Cor do título */
+}
+
+/* Estilos do botão */
+button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos do formulário */
+#itemForm {
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+}
+
+#itemForm input {
+    margin-right: 10px; /* Espaçamento entre campos */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 200px; /* Largura fixa */
+}
+
+#itemForm input:focus {
+    border-color: #007bff; /* Borda azul ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilos da lista de itens */
+#itemList {
+    display: flex; /* Flexbox para itens */
+    flex-wrap: wrap; /* Permite quebrar linha */
+    justify-content: center; /* Centraliza itens */
+    margin-top: 20px; /* Espaçamento acima da lista */
+}
+
+.item {
+    background-color: white; /* Fundo branco para cada item */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px; /* Margem entre itens */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza conteúdo */
+    width: 150px; /* Largura fixa */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item img {
+    max-width: 100%; /* Imagem responsiva */
+    border-radius: 5px; /* Bordas arredondadas na imagem */
+}
+
+.item span {
+    display: block; /* Cada nome em uma nova linha */
+    margin: 10px 0; /* Espaçamento acima e abaixo do nome */
+}
+
+.item button {
+    background-color: #dc3545; /* Cor de fundo do botão de remoção */
+    padding: 5px; /* Espaçamento interno */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+.item button:hover {
+    background-color: #c82333; /* Cor ao passar o mouse */
+}
